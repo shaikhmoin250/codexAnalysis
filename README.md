@@ -31,3 +31,21 @@ npm start
 ```
 
 The frontend will be served on `http://localhost:4200` and proxy API requests to the backend.
+
+## Frontend requirements
+
+The Angular client exposes all operations offered by the REST API:
+
+- **Movies** – create, update, list and delete movies.
+- **Shows** – create, update, list and delete shows.
+- **Bookings** – create and cancel bookings and view all bookings.
+
+Each section of the UI presents a small form for creating or updating entities and lists existing items with controls to modify or remove them.
+
+### Development plan
+
+1. Build the Spring Boot backend using Gradle and run it on port 8080.
+2. In a separate terminal, install Angular dependencies inside `client/` and start the development server with `npm start`.
+3. The Angular app is served on `http://localhost:4200` and proxies API calls to the backend.
+4. Use the movie, show and booking management sections to interact with the backend.
+
