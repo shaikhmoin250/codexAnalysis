@@ -49,3 +49,7 @@ Each section of the UI presents a small form for creating or updating entities a
 3. The Angular app is served on `http://localhost:4200` and proxies API calls to the backend.
 4. Use the movie, show and booking management sections to interact with the backend.
 
+## Architecture
+
+For a visual overview of how the Angular frontend communicates with the Spring Boot backend, see [docs/architecture.md](docs/architecture.md).
+
