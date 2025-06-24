@@ -1,9 +1,19 @@
-# Codex Analysis
+# Movie Ticketing API
 
-This repository demonstrates a simple Hello World program in Python.
+This project provides a basic Spring Boot application exposing REST APIs for managing movies, showtimes and bookings.
 
-## Running the example
+## Building the project
+
+Gradle is used for building the application.
 
 ```bash
-python hello.py
+gradle build
 ```
+
+## Running the application
+
+```bash
+gradle bootRun
+```
+
+The service will start on `http://localhost:8080`.
